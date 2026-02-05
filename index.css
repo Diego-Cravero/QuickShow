@@ -1,39 +1,61 @@
 body{
     display: flex;
+
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     background-color: rgb(44, 43, 43);
-    color: white;
-    
+    color: whitesmoke;
+    font-weight: bold;
+    background-image: url(img/02560e6c-5ffd-42d4-a47c-c54eaf75628d@3.png);
 }
+header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20pt;
+    width: 100%;
+}   
 main{
-    width: 300px;
+    width: 100%;
     height: 400px;
     margin-top: 200px;
     margin-right: 13%;
     padding: 10px;
-    border: 2px solid black;
+    
 }
     
 
-h1{
+.boxDomanda{
     text-align: center;
 
+    border-radius: 35%;
+    margin-bottom: 20px;
 }
 .Risposte{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    
+    >div{
+        margin: 30px 100px;
+       
+       >label{
+        width: 30px;
+        padding: 20px;
+        margin: 30px;
+        border:2px solid black;
+        border-radius: 25%;
+       }
+    }
+
 }
+
 img{
     width: 100px;
     height: 80px;
     position: relative;
     bottom: 150px;
-    right: 400px;
+    left: 100px;
 }
 button{
     width: 100px;
@@ -41,4 +63,6 @@ button{
     border-radius: 10px;
     margin-top: 10px;
     margin-left: 35%;
+    color: yellow;
+    background-color: black;
 }

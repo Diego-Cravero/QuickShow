@@ -6,14 +6,15 @@
         <title>QuickShow</title>
     </head>
     <body>
+        <header>Chi Vuole essere Milionario </header>
         <main>
-            <h1>Quick Show</h1>
             <div class="boxDomanda">
                 <h2 id="Domanda"></h2>
             
             </div>
             <div class="Risposte">
-                <label for="risposta" class="opzione">
+                <div>
+                    <label for="risposta" class="opzione">
                     <input type="radio" name="risposta">
                     <span></span>
                 </label>
@@ -21,16 +22,20 @@
                     <input type="radio" name="risposta">
                     <span></span>
                 </label>
-                <label for="risposta" class="opzione">
-                    <input type="radio" name="risposta">
-                    <span></span>
-                </label>
-                <label for="risposta" class="opzione">
-                    <input type="radio" name="risposta">
-                    <span></span>
-                </label>
+                </div>
+                <div>
+                    <label for="risposta" class="opzione">
+                        <input type="radio" name="risposta">
+                        <span></span>
+                    </label>
+                    <label for="risposta" class="opzione">
+                        <input type="radio" name="risposta">
+                        <span></span>
+                    </label>
+                </div>
+                
             </div>
-            <button onclick="">CONFERMA</button>
+            <button onclick="confermaDomanda()">CONFERMA</button>
              <img src="img/Jerry-Scotty-evidenza.png" alt="gerry ">
         </main>
         <script src="script.js"></script>
